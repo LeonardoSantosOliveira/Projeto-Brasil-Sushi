@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil Sushi - Iguape</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- BS ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- CSS PROJETO -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- MEDIA QUERY -->
+    <link rel="stylesheet" href="assets/css/mediaQueries.css">
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <!-- LOGO HEADER -->
+    <header>
+        <div class="container-fluid" id="header-logo">
+            <div class="row d-flex">
+                <div class="col-12">
+                    <a href="index.html"><img src="assets/img/brasilSushiLogo.png" alt="Logo brasil sushi"></a>
+                </div>
+            </div>
+        </div>
+    <!-- BOTTOM NAVBAR -->
+    <nav class="navbar navbar-expand-lg" id="bottom-navbar">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-md-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="inde.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cardapio" class="nav-link">Cardápios</a>
+                    </li>      
+                    <li class="navitem">
+                        <a href="#mapa-avaliacao" class="nav-link">Avaliações</a>
+                    </li>              
+                    <li class="nav-item">
+                        <a href="#galeria" class="nav-link">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <!-- BANNER -->
+        <div class="container" id="container-banner">
+            <div id="carousel-sushi" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="500">
+                    <img src="assets/img/banner1.jpg" class="d-block w-100" alt="banner 1">
+                    <div class="carousel-caption">
+                        <h5>OS MELHORES COMBINADOS!</h5>
+                        <p>Grande variedade de combinados à sua disposição.</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="500">
+                    <img src="assets/img/banner2.jpg" class="d-block w-100" alt="banner 2">
+                    <div class="carousel-caption">
+                        <h5>QUALIDADE EM PRIMEIRO LUGAR!</h5>
+                        <p>Utilizamos produtos de primeira qualidade.</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="500">
+                    <img src="assets/img/banner3.jpg" class="d-block w-100" alt="banner 3">
+                    <div class="carousel-caption">
+                        <h5>A MELHOR APRESENÇÃO!</h5>
+                        <p>Entregamos pratos que são de comer com os olhos.</p>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-sushi" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-sushi" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+        </div>
+        <div class="container" id="mini-banners">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center d-flex">
+                        <h5 class="card-title"><i class="bi bi-geo-alt-fill"></i></h5>
+                        <p class="card-subtitle">Estamos localizados em:</p>
+                        <p class="card-text">Praça da Basílica, 92 - Iguape/SP</p>
+                        <a href="https://maps.app.goo.gl/f7kk2m2aEDJGQ28JA" class="card-link btn btn-primary" target="_blank">Como chegar?</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center d-flex">
+                        <h5 class="card-title"><i class="bi bi-whatsapp"></i></h5>
+                        <p class="card-subtitle">Nos chame em:</p>
+                        <p class="card-text">(13) 99675-1546</p>
+                        <a href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F5513996751546&e=AT3OPOl8ct3FI2k2LsDExRfNwgx4p1Obc4mP3npoFbJtkWTBuBxYtvCWUchZGpBteowBvDbwWCRajo2TDNzjvl76KxN4auGhMpbbkll7rrnMmCS7zxj4HQ" class="card-link btn btn-primary" target="_blank">CHAMAR</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center d-flex">
+                        <h5 class="card-title"><i class="bi bi-instagram"></i></h5>
+                        <p class="card-subtitle">INSTAGRAM:</p>
+                        <p class="card-text">@brasilsushi_igp</p>
+                        <a href="https://www.instagram.com/brasilsushi_igp/" class="card-link btn btn-primary" target="_blank">SIGA-NOS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SOBRE -->
+        <div class="container" id="sobre" data-bs-spy="scroll" data-bs-target="#bottom-navbar" data-bs-offset="0" tabindex="0">
+            <h2 class="title">SOBRE</h2>
+            <div class="row bg-primary-color">
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/restaurante.jpeg" alt="Restaurante brasil Sushi" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 texto-sobre d-flex">
+                    <h3 class="sobre-title">Brasil Sushi Iguape</h3>
+                    <p>"Restaurante japonês, atendemos no sistema de rodízio completo e a la carte. No a la carte, temos ótimas opções de combinados de sushis e sashimis e variedades em pratos quentes. Temos opções para quem não come comida japonesa."</p>
+                </div>
+            </div>
+        </div>
+        <!-- CARDÁPIO-->
+        <div class="container" id="cardapio" data-bs-spy="scroll" data-bs-target="#bottom-navbar" data-bs-offset="0" tabindex="0">
+            <h2 class="title">cardápio</h2>
+            <div class="row">
+                <div class="col-12 col-md-7 d-none d-md-block container-cardapio">
+                    <div class="row">
+                    <div class="image image-cardapio1"></div>
+                    <div class="image image-cardapio2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="image image-cardapio3"></div>
+                        <div class="image image-cardapio4"></div>
+                    </div>
+                    <div class="row">
+                        <div class="image image-cardapio5"></div>
+                        <div class="image image-cardapio6"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-flex">
+                    <p>Você pode escolher entre sushi e sahimi variados, Temakis entre outros pratos frios.</p>
+                    <p>Entre os pratos quentes, pode-se pedir salmão grelhado, shimeji, lula à dorê, missoshiro, guioza, harumaki e o delicioso Jyo.</p>
+                    <p class="text-center">Confira o que oferecemos em nosso restaurante!</p>
+                    <a href="https://drive.google.com/file/d/1jH8ZIt6X5EXT8QUhwm4emWrxhjv-Xkln/view" class="btn btn-primary">À la carte</a>
+                    <a href="https://drive.google.com/file/d/1jH8ZIt6X5EXT8QUhwm4emWrxhjv-Xkln/view" class="btn btn-primary">Rodízio</a>
+                    <a href="https://drive.google.com/file/d/1ElZ8x4ozvA-DN9QhfYIXhMIImM_bsRcj/view" class="btn btn-primary">Delivery</a>
+                    <a href="https://drive.google.com/file/d/1v0ipfgna_GJvaZW3SJiqsTxERnNNN6Xs/view" class="btn btn-primary">Bebidas e Drinks</a>
+                </div>
+            </div>
+        </div>
+        <!-- MAPA E AVALIAÇÃO -->
+        <div class="container" id="mapa-avaliacao" data-bs-spy="scroll" data-bs-target="#bottom-navbar" data-bs-offset="0" tabindex="0">
+            <div class="row">
+                <h2 class="title text-start">Avaliações</h2>
+                <div class="col-12 col-md-7">
+                    <div class="row">
+                        <img src="assets/img/avaliacao1.PNG" alt="avaliacao1" class="avaliacao avaliacao1">
+                        <img src="assets/img/avaliacao2.PNG" alt="avaliacao2" class="avaliacao avaliacao2">
+                    </div>
+                    <div class="row">
+                        <img src="assets/img/avaliacao3.PNG" alt="avaliacao3" class="avaliacao avaliacao3">
+                        <img src="assets/img/avaliacao4.PNG" alt="avaliacao4" class="avaliacao avaliacao4">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.518953199147!2d-47.55831392463387!3d-24.709057978028397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94daa3bbe86b966d%3A0x3ea0e285cab4f8a7!2sBrasil%20Sushi%20Iguape!5e0!3m2!1spt-BR!2sbr!4v1695413610665!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid" id="galeria" data-bs-spy="scroll" data-bs-target="#bottom-navbar" data-bs-offset="0" tabindex="0">
+            <div class="row">
+                <div class="col-6 col-md-2 galeria-image-container" id="foto1"></div>
+                <div class="col-6 col-md-2 galeria-image-container" id="foto2"></div>
+                <div class="col-6 col-md-2 galeria-image-container" id="foto3"></div>
+                <div class="col-6 col-md-2 galeria-image-container" id="foto4"></div>
+                <div class="col-6 col-md-2 galeria-image-container" id="foto5"></div>
+                <div class="col-6 col-md-2 galeria-image-container" id="foto6"></div>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="text-center">
+        <p>Brasil Sushi Iguape&copy; - Todos os direitos reservados - Desenvolvido por: <a href="https://www.instagram.com/l98oliveira/">Leonardo Santos</a></p>
+    </footer>
+</body>
+</html>
