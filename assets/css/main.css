@@ -135,6 +135,7 @@ body{
 
 #mini-banners .col-12 .card-link.btn.btn-primary{
     background-color: var(--corAzulEscuro);
+    border-color: var(--corAzulEscuro);
     font-size: 1.2em;
     text-transform: uppercase;
     font-weight: bold;
@@ -142,6 +143,7 @@ body{
 
 #mini-banners .col-12 .card-link.btn.btn-primary:hover{
     background-color: var(--corAzulClaro);
+    border-color: var(--corAzulClaro);
 }
 
 /* SOBRE */
